@@ -18,7 +18,7 @@ var obj = JSON.parse(body);
 var title =obj['country'];
 var description =obj['country'];
 foods[getRandomInt(foods.length)];
-var subtitle = obj['isp']+ '('+obj['ipType']+')';
+var subtitle =李小强;
 var ip = obj['query'];
 var description = obj['country'] + '-' + obj['city'] + '\n' + obj['isp'] + '\n' + obj['ipType']+ '\n' + ip;
 
