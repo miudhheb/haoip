@@ -16,9 +16,9 @@ function getRandomInt(max) {
 var body = $response.body;
 var obj = JSON.parse(body);
 var title =obj['country'];
-var description = obj['country'];
+var description =obj['country'];
 var subtitle ='('+obj['ipType']+')';
-var ip =obj['isp'];
+var ip =obj['isp']+obj['query'];
 var description = obj['country'] + '-' + obj['city'] + '\n' + obj['isp'] + '\n' + obj['ipType']+ '\n' + ip;
 
 $done({title, subtitle, ip, description});
