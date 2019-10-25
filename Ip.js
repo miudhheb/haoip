@@ -17,7 +17,6 @@ var body = $response.body;
 var obj = JSON.parse(body);
 var title =obj['country'];
 var description =obj['country'];
-var subtitle =obj['query'];
 var ip =obj['isp'];
 var description = obj['country'] + '-' + obj['city'] + '\n' + obj['isp'] + '\n' + obj['ipType']+ '\n' + ip;
 
