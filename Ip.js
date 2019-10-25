@@ -17,7 +17,7 @@ var body = $response.body;
 var obj = JSON.parse(body);
 var title =obj['country'];
 var description =obj['country'];
-var subtitle ='地址:'+ obj['ipType'];
+var subtitle ='地区';
 var ip = obj['query'];
 var description = obj['country'] + '-' + obj['city'] + '\n' + obj['isp'] + '\n' + obj['ipType']+ '\n' + ip;
 
