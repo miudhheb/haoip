@@ -16,8 +16,8 @@ function getRandomInt(max) {
 var body = $response.body;
 var obj = JSON.parse(body);
 var title =obj['country'];
-var description ='中国-香港IPLC专线';
-var subtitle ='TG Quan X讨论组';
+var description =obj['country'];
+var subtitle ='国际专线 (IPLC)';
 var ip = obj['query'];
 var description = obj['country'] + '-' + obj['city'] + '\n' + obj['isp'] + '\n' + obj['ipType']+ '\n' + ip;
 
