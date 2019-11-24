@@ -17,7 +17,7 @@ var body = $response.body;
 var obj = JSON.parse(body);
 var title =obj['country'];
 var description =obj['country'];
-var subtitle ='国际专线(IPLC) 剩余：601.24G';
+var subtitle ='大雄脚本组';
 var ip = obj['query'];
 var description = obj['country'] + '-' + obj['city'] + '\n' + obj['isp'] + '\n' + obj['ipType']+ '\n' + ip;
 
